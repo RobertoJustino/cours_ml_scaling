@@ -1,0 +1,5 @@
+aioredis==2.0.1
+celery==5.2.7
+fastapi==0.92.0
+flower==1.2.0
+redis==4.5.1
