@@ -54,4 +54,18 @@ docker-compose build
 
 
 ## Tester le projet 
-
+Run le service web
+```
+docker-compose exec web python
+```
+Test avec une simple tâche
+```
+>>> from main import app
+>>> from project.users.tasks import divide
+>>>
+>>> divide.delay(1, 2)
+```
+Ouvrir un nouveau terminal, se placer dans le dossier du projet, et regarder les logs du worker Celery
+```
+docker-compose logs celery_worker
+```
