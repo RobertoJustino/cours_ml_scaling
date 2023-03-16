@@ -31,7 +31,7 @@ Lien du tuto pour ce projet : https://testdriven.io/courses/fastapi-celery/getti
 │           └── start
 ├── docker-compose.yml
 ├── main.py
-├── project
+├── proj
 │   ├── __init__.py
 │   ├── celery_utils.py
 │   ├── config.py
