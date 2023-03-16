@@ -1,5 +1,7 @@
 # cours_ml_scaling
 
+Lien du tuto pour ce projet : https://testdriven.io/courses/fastapi-celery/getting-started/
+
 ## Structure du projet
 
 ```
